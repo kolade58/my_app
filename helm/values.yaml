@@ -4,14 +4,14 @@
 
 replicaCount: 1
 
-# env:
-#   APP_VERSION: <desired_application_version>
+env:
+  APP_VERSION: 260be5fd0961e6c85b77dff49910c6d8e705840c
 
 image:
   repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "2.8"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
