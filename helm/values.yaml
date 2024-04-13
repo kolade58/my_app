@@ -5,7 +5,7 @@
 replicaCount: 1
 
 env:
-  APP_VERSION: 260be5fd0961e6c85b77dff49910c6d8e705840c
+  APP_VERSION: 6fbb10f80cf476f2683c1d6c8ee3e0f14adbb7f4
 
 image:
   repository: nginx
